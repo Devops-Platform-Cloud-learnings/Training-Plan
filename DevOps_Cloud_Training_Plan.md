@@ -133,20 +133,17 @@
 
 **Learning Objectives:**
 - Design and implement CI/CD pipelines end-to-end
-- Use Jenkins and GitHub Actions for real-world pipelines
+- Use GitHub Actions for real-world pipelines
 
 **Topics:**
 - CI/CD principles: why, what, how
 - Pipeline stages: source → build → test → artifact → deploy
-- Jenkins: installation, declarative pipeline, Jenkinsfile
-- Jenkins agents, shared libraries, credentials management
 - GitHub Actions: workflow YAML, jobs, steps, actions
 - Reusable workflows, matrix builds, secrets
 - Artifact management (Nexus, JFrog, ECR)
 - Pipeline best practices: fail fast, parallel stages, rollback
 
 **Lab Exercises:**
-1. Jenkins declarative pipeline for a Java/Python app (build → test → Docker build → push)
 2. GitHub Actions workflow: lint → test → build → deploy to staging
 3. Implement automated rollback on deployment failure
 
@@ -329,7 +326,7 @@
 | 13:30 – 15:00 | Tool Deep Dive / Demo |
 | 15:00 – 15:15 | Break |
 | 15:15 – 16:30 | Project Work (self-paced, mentor available) |
-| 16:30 – 17:00 | Daily Standup (doubts, review, preview) |
+| 20:30 – 21:30 | Daily Standup (doubts, review, preview) |
 
 ---
 
@@ -341,7 +338,7 @@
 | Version Control | Git, GitHub, GitLab |
 | Scripting | Python 3, Bash |
 | Containers | Docker, Podman, Docker Compose |
-| CI/CD | Jenkins, GitHub Actions, GitLab CI |
+| CI/CD | GitHub Actions, GitLab CI |
 | Cloud | AWS (EC2, S3, EKS, VPC, IAM), Azure (AKS, VMs, DevOps) |
 | IaC | Terraform, Ansible |
 | Orchestration | Kubernetes, Helm, Kustomize |
